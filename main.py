@@ -12,7 +12,7 @@ while repeat:
             print("It's a tie")
         elif player == 'r' and cpu == 'p':
             print(cpu)
-            print('You lose')
+            print('Computer wins')
             break
         elif player == 'r' and cpu == 's':
             print(cpu)
@@ -24,7 +24,7 @@ while repeat:
             break
         elif player == 'p' and cpu == 's':
             print(cpu)
-            print('You lose')
+            print('Computer wins')
             break
         elif player == 's' and cpu == 'p':
             print(cpu)
@@ -32,7 +32,7 @@ while repeat:
             break
         elif player == 's' and cpu == 'r':
             print(cpu)
-            print('You lose')
+            print('Computer wins')
             break
         else:
             print("Wrong input, try again")
